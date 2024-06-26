@@ -1,7 +1,8 @@
+import functools
+
 from flask import (
     Blueprint,
     flash,
-    functools,
     g,
     redirect,
     render_template,
